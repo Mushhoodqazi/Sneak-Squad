@@ -1,0 +1,91 @@
+.top-sec-admin{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    
+}
+.top-sec-all-card-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-sec-card-container{
+    margin: 1rem;
+    width: fit-content;
+    padding: 0.2rem;
+    height: 100px;
+    background-color: #f7f7f7;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.dash-top-icon{
+    margin: 1rem;
+    color: black;
+    font-size: 3rem;
+}
+.top-sec-card-info{
+    margin: 1rem;
+    display: flex;
+    align-items: flex-start;
+    color: black;
+    flex-direction: column;
+}
+.recent-application-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.recent-application-card-container{
+    margin: 0.5rem 1rem;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+}
+.recent-application-section-title{
+    align-self: flex-start;
+    margin-bottom: 1rem;
+}
+
+.user-name-recent{
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+.job-title-recent{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.recent-application-applied-date{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.time-icon-recent{
+    font-size: 0.9rem;
+    margin-right: 0.5rem ;
+}
+.recent-application-desc{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.icon-recent-application{
+    font-size: 1.5rem;
+    margin-inline: 0.5rem;
+}
